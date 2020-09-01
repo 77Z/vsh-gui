@@ -1,0 +1,46 @@
+/* #terminal {
+    position: fixed;
+    top: 0;
+    left: 0;
+} */
+
+body, html {
+    background: #000;
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #222;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #464646;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #000000;
+}
+
+::-webkit-scrollbar-track {
+    background: #464646;
+    width: 10px;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+input {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}

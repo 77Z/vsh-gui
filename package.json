@@ -1,0 +1,24 @@
+{
+  "name": "vsh-gui",
+  "version": "1.0.0",
+  "description": "VSH GUI",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/77Z/vsh-gui.git"
+  },
+  "author": "Vince Richter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/77Z/vsh-gui/issues"
+  },
+  "homepage": "https://github.com/77Z/vsh-gui#readme",
+  "dependencies": {
+    "electron": "^10.1.0",
+    "xterm": "^4.8.1",
+    "xterm-addon-fit": "^0.4.0"
+  }
+}
